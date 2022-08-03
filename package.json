@@ -1,0 +1,43 @@
+{
+  "name": "technical_challenge_wd",
+  "version": "1.0.0",
+  "description": "At The Phone Cave we are looking for someone to help us turn our cave store into a home, and to do so we present you this challenge.",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build-dev": "dotenv -e .env.development react-scripts build",
+    "build-prod": "dotenv -e .env.production react-scripts build",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lluisllc/technical_challenge_WD.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lluisllc/technical_challenge_WD/issues"
+  },
+  "homepage": "https://github.com/lluisllc/technical_challenge_WD#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "^5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
