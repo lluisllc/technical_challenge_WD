@@ -4,7 +4,7 @@ const express = require("express");
 const app = express();
 
 
-const phoneRoutes = require("./routes/section.routes")
+const phoneRoutes = require("./routes/phone.routes")
 app.use("/api/phones", phoneRoutes)
 
 const allRoutes = require("./routes");

@@ -1,7 +1,7 @@
 const URL = '/phone';
 
 const getAllPhonesService = () => {
-	return service.get(`${URL}/`);
+	return service.get(`${URL}`);
 };
 
 const getPhoneDetailsService = (id) => {
